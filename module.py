@@ -1,6 +1,6 @@
 import pytorch_lightning as pl
 import torch
-from torchvision import Accuracy
+from torchmetrics import Accuracy
 
 from cifar10_models.densenet import densenet121, densenet161, densenet169
 from cifar10_models.googlenet import googlenet
